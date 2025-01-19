@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef6fc; /* Light blue background color */
+    padding: 40px;
+    color: #444;
+  }
+  
+  
+  h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  #text1,
+  #text2,
+  #output1,
+  #output2 {
+    width: 100%;
+    min-height: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  #text1:focus,
+  #text2:focus {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 4px 6px rgba(0, 0, 0, 0.22);
+  }
+  
+  .input-container,
+  .output-container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .input-container label,
+  .output-container label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #output1,
+  #output2 {
+    background-color: white;
+  }
+  
+  .highlight {
+    background-color: #f1c40f;
+    padding: 2px;
+    margin: -2px;
+  }
+  
+  #compareButton {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 20px;
+    width: 50%;
+    max-width: 250px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  #compareButton:hover {
+    background-color: #2980b9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 4px 6px rgba(0, 0, 0, 0.22);
+  }
+  
